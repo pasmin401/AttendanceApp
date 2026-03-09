@@ -375,5 +375,6 @@ function closeLightbox() {
   document.getElementById('lightbox').classList.remove('open');
 }
 </script>
+<?php include __DIR__ . '/../includes/speed-insights.php'; ?>
 </body>
 </html>

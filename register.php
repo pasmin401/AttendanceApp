@@ -364,5 +364,6 @@ function checkMatch() {
 const confirmEl = document.getElementById('confirm');
 if (confirmEl) confirmEl.addEventListener('input', checkMatch);
 </script>
+<?php include __DIR__ . '/includes/speed-insights.php'; ?>
 </body>
 </html>

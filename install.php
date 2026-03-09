@@ -150,5 +150,6 @@ if ($action === 'install') {
 }
 ?>
 </div>
+<?php include __DIR__ . '/includes/speed-insights.php'; ?>
 </body>
 </html>

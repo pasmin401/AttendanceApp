@@ -655,5 +655,6 @@ function toggleSidebar() {
   sb.style.display = sb.style.display === 'flex' ? 'none' : 'flex';
 }
 </script>
+<?php include __DIR__ . '/../includes/speed-insights.php'; ?>
 </body>
 </html>

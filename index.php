@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Login – <?= e(APP_NAME) ?></title>
-<link rel="stylesheet" href="<?= APP_URL ?>/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/style.css">
 <style>
 .form-footer { text-align: center; margin-top: 20px; font-size: .875rem; color: var(--txt2); }
 .form-footer a { font-weight: 600; }
@@ -66,7 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <div class="auth-wrapper">
   <!-- Brand Side -->
   <div class="auth-brand">
-    <div class="logo-mark">📋</div>
+    <div class="logo-mark"><img src="/assets/logo.svg" alt="Logo" style="width:48px;height:48px;object-fit:contain;border-radius:8px;"></div>
     <h1>Track Every<br>Moment That<br>Matters</h1>
     <p>Smart attendance management with geo-verified check-ins and real-time reporting.</p>
     <div class="auth-features">
@@ -124,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
 
         <div class="forgot-link">
-          <a href="<?= APP_URL ?>/forgot-password.php">Forgot password?</a>
+          <a href="/forgot-password.php">Forgot password?</a>
         </div>
 
         <button type="submit" class="btn btn-primary btn-full btn-lg">
@@ -133,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </form>
 
       <div class="form-footer">
-        Don't have an account? <a href="<?= APP_URL ?>/register.php">Create one</a>
+        Don't have an account? <a href="/register.php">Create one</a>
       </div>
 
       <div class="divider"></div>
